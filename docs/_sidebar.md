@@ -1,11 +1,64 @@
 * 一、Java
     * 1.1、Java基础
-      * 
+      * [基础类型](Java/Java基础.md)
+      * [String](Java/String.md)
+      * [运算](Java/运算.md)
+      * [关键字](Java/关键字.md)
+      * [Object通用方法](Java/Object.md)
+      * [继承](Java/继承.md)
+      * [反射与泛型、注解](Java/反射与泛型和注解.md)
     * 1.2、Java容器
+      * [01.概览](Java/Java容器/概览.md)
+      * [02.容器中的设计模式](Java/Java容器/容器中的设计模式.md)
+      * 03、源码分析
+        * [ArrayList](Java/Java/源码分析/ArrayList.md)
+        * [LinkedList](Java/Java/源码分析/LinkedList.md)
+        * [CopyOnWriteArrayList](Java/Java/源码分析/CopyOnWriteArrayList.md)
+        * [Vector](Java/Java/源码分析/Vector.md)
+        * [HashMap](Java/Java/源码分析/HashMap.md)
+        * [ConcurrentHashMap](Java/Java/源码分析/ConcurrentHashMap.md)
+        * [LinkedHashMap](Java/Java/源码分析/LinkedHashMap.md)
+        * [WeakHashMap](Java/Java/源码分析/WeakHashMap.md)
+        * [ThreadLocal](Java/Java/源码分析/ThreadLocal.md)
+        * [2-3数](Java/Java/源码分析/2-3树.md)
+        * [红黑树](Java/Java/源码分析/红黑树.md)
     * 1.3、Java并发
+        * [使用线程](Java/Java并发/使用线程.md)
+        * [基础线程机制](Java/Java并发/基础线程机制.md)
+        * [中断](Java/Java并发/中断.md)
+        * [互斥同步](Java/Java并发/互斥同步.md)
+        * [线程之间的协作](Java/Java并发/线程之间的协作.md)
+        * [线程状态](Java/Java并发/线程状态.md)
+        * [JUC-AQS](Java/Java并发/JUC-AQS.md)
+        * [JUC-其它组件](Java/Java并发/JUC-其它组件.md)
+        * [线程不安全示例](Java/Java并发/线程不安全示例.md)
+        * [Java内存模型](Java/Java并发/Java内存模型.md)
+        * [线程安全](Java/Java并发/线程安全.md)
+        * [锁优化](Java/Java并发/锁优化.md)
+        * [多线程开发良好的实践](Java/Java并发/多线程开发良好的实践.md)
     * 1.4、Java虚拟机
+          * [运行时数据区域](Java/Java虚拟机/运行时数据区域.md)
+          * [垃圾收集](Java/Java虚拟机/垃圾收集.md)
+          * [内存分配与回收策略](Java/Java虚拟机/内存分配与回收策略.md)
+          * [类加载机制](Java/Java虚拟机/类加载机制.md)
     * 1.5、Java IO
-    * 1.6、没遇到过的java类与方法
+      * [01.概览](Java/JavaIO/概览.md)
+      * [02.磁盘操作](Java/JavaIO/磁盘操作.md)
+      * [03.字节操作](Java/JavaIO/字节操作.md)
+      * [04.字符操作](Java/JavaIO/字符操作.md)
+      * [05.对象操作](Java/JavaIO/对象操作.md)
+      * [06.网络操作](Java/JavaIO/网络操作.md)
+      * [07.NIO](Java/JavaIO/NIO.md)
+    * 1.6、一些java类的使用与方法
+      * [StringTokenizer类](Java/没遇到过的java类与方法/StringTokenizer类.md)
+      * [Arrays类使用详情](Java/没遇到过的java类与方法/Arrays类.md)
+      * [Collections类使用详情](Java/没遇到过的java类与方法/Collections类.md)
+      * [Pattern类使用详情](Java/没遇到过的java类与方法/Pattern类.md)
+      * [DataSourceTransactionManager类解读](Java/没遇到过的java类与方法/DataSourceTransactionManager类解读.md)
+      * [Optional类](Java/没遇到过的java类与方法/Optional类.md)
+      * [PriorityQueue优先队列](Java/没遇到过的java类与方法/PriorityQueue优先队列.md)
+
+
 
 * 二、项目学习
     * litemall
@@ -13,9 +66,31 @@
       * [mybatis-puls逆向工程](项目学习/litemall/mybatis-puls逆向工程.md)
       * [小程序微信登陆流程](项目学习/litemall/小程序微信登陆流程.md)
       * [项目中遇到的多线程处理](项目学习/litemall/项目中遇到的多线程处理.md)
+    * lottery
+      * [构建基础架构时的maven](项目学习/lottery/构建基础架构时的maven.md)
+      * [DDD架构的作用与流程](项目学习/lottery/DDD架构的作用与流程.md)
+      * [策略模式在项目中的使用](项目学习/lottery/策略模式在项目中的使用.md)
+      * [模板模式在项目中的使用](项目学习/lottery/模板模式在项目中的使用.md)
+      * [用工厂方法搭建发奖领域](项目学习/lottery/用工方法搭建发奖领域.md)
+      * [状态模式在活动领域引用](项目学习/lottery/状态模式在活动领域引用.md)
+      * [策略模式的应用ID生成](项目学习/lottery/策略模式的应用ID生成.md)
+      * [分库分表路由组件的设计](项目学习/lottery/分库分表路由组件的设计.md)
+      * [声明事务领取对象的学习](项目学习/lottery/声明事务领取对象的学习.md)
+      * [应用层的抽奖流程编排](项目学习/lottery/应用层的抽奖流程编排.md)
+      * [组合模式在规则量化中的运用](项目学习/lottery/组合模式在规则量化中的运用.md)
+      * [接口层的门面封装和对象转换](项目学习/lottery/接口层的门面封装和对象转换.md)
+      * [MQ在项目中的使用](项目学习/lottery/MQ在项目中的使用.md)
+      * [xxl-job任务调度在项目中的使用](项目学习/lottery/xxl-job任务调度在项目中的使用.md)
+      * [幂等性扫描对应的库表去补偿发货单消息](项目学习/lottery/扫描对应的库表去补偿发货单消息.md)
+      * [redis在项目中的使用](项目学习/lottery/redis在项目中的使用.md)
+      * [搭建erp并使用nacos作为注册中心](项目学习/lottery/搭建erp并使用nacos作为注册中心.md)
 
 * 三、工具
     * [01.vs插件markdown使用快捷](tools/01.vs插件markdown使用快捷.md)
+    * [02.hutool工具类](tools/hutool工具类.md)
+    * [03.maven的使用](tools/mavne的使用.md)
+    * [04.对象转换工具MapStruct](tools/对象转换工具MapStruct.md)
+    * [05.docsify的使用](tools/docsify的使用.md)
 
 * 四、数据库
     * 4.1、MYSQL
@@ -38,7 +113,16 @@
 * 五、算法 
     * 5.1、剑指offer
         * 5.1.1、数组与矩阵
-            [31.栈的压入、弹出序列](算法/剑指offer/31.栈的压入和弹出序列.md)
+          *  [31.栈的压入、弹出序列](算法/剑指offer/31.栈的压入和弹出序列.md)
+    * 5.2、leetcode精选
+        * [回溯](算法/LeetCode精选/回溯.md)
+        * [贪心](算法/LeetCode精选/贪心.md)
+        * [KMP](算法/LeetCode精选/KMP.md)
+    * 5.3、数据结构
+        * [并查集](算法/数据结构/并查集.md)
+        * [排序](算法/数据结构/排序.md)
+        * [BFS和DFS](算法/数据结构/BFS和DFS.md)
+        * [链表](算法/数据结构/链表.md)
 
 
 * 六、计算机基础
@@ -83,18 +167,54 @@
     
 * 七、设计模式
     * 7.1、创建型
-        * [01.单例](设计模式/创建型/单例.md)
-        * [02.简单模式](设计模式/创建型/简单模式.md)
-        * [03.工厂方法](设计模式/创建型/工厂方法.md)
-        * [04.抽象工厂](设计模式/创建型/抽象工厂.md)
-        * [05.生成器](设计模式/创建型/生成器.md)
-        * [06.原型模式](设计模式/创建型/原型模式.md)
+        * [单例](设计模式/创建型/单例.md)
+        * [简单模式](设计模式/创建型/简单模式.md)
+        * [工厂方法](设计模式/创建型/工厂方法.md)
+        * [抽象工厂](设计模式/创建型/抽象工厂.md)
+        * [生成器](设计模式/创建型/生成器.md)
+        * [原型模式](设计模式/创建型/原型模式.md)
     * 7.2、行为型
-        * [01.责任链](设计模式/行为型/责任链.md)
-        * [02.命令](设计模式/行为型/命令.md)
+        * [责任链](设计模式/行为型/责任链.md)
+        * [命令](设计模式/行为型/命令.md)
+        * [解释器](设计模式/行为型/解释器.md)
+        * [策略模式](设计模式/行为型/策略模式.md)
+        * [模板模式](设计模式/行为型/模板模式.md)
+        * [迭代器](设计模式/行为型/迭代器.md)
+        * [状态模式](设计模式/行为型/状态模式.md)
+    * 7.3、结构型
+        * [外观](设计模式/结构型/外观.md)
+        * [组合](设计模式/结构型/组合.md)
+    * 7.4、设计原则
+        * [七大原则](设计模式/设计原则/七大原则.md)
 
 
 
 * 八、某些知识点
     * 8.1、git
         * [01.git部署项目到github——简单操作](某些知识点/git/git部署项目到github——简单操作.md)
+    * 8.2、对于一些报错
+        * [初次用doubbo两者之间的调用错误](某些知识点/报错/Java.lang.NoClassDefFoundError错误.md)
+        * [CONDITIONS EVALUATION REPORT错误](某些知识点/报错/CONDITIONSEVALUATIONREPORT错误.md)
+        * [接口与xml没有映射错误](某些知识点/报错/接口与xml没有映射错误.md)
+    * 8.3、springboot注解
+        * [lottery中学到的](某些知识点/spingboot注解/lottery中学到的.md)
+    * 8.4、一些知识点网站的收藏
+        * [网站收藏](/某些知识点/网站/一些知识点网站的收藏.md)
+
+
+* 九、RPC框架
+    * RPC基础
+        * [RPC实战与核心原理](RPC框架/RPC基础/RPC实战与核心原理.md)
+    * 中间件
+        * [kafka在windows中的使用](RPC框架/中间件/kafkawindows中的使用.md)
+    * 分布式系统
+        * [分布式系统理论基础](RPC框架/分布式系统理论基础.md)
+        * [分布式理论](RPC框架/分布式理论.md)
+        * [分布式算法](RPC框架/分布式算法.md)
+        * [分布式锁](RPC框架/分布式锁.md)
+        * [分布式事务](RPC框架/分布式事务.md)
+        * [分布式缓存](RPC框架/分布式缓存.md)
+        * [缓存](RPC框架/缓存.md)
+
+* 九、先放一下
+    * [12月](总结/12月.md)
