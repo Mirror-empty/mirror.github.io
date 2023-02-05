@@ -22,6 +22,7 @@
         * [ThreadLocal](Java/Java/源码分析/ThreadLocal.md)
         * [2-3数](Java/Java/源码分析/2-3树.md)
         * [红黑树](Java/Java/源码分析/红黑树.md)
+        * [volatile](Java/Java/源码分析/volatile.md)
     * 1.3、Java并发
         * [使用线程](Java/Java并发/使用线程.md)
         * [基础线程机制](Java/Java并发/基础线程机制.md)
@@ -36,11 +37,13 @@
         * [线程安全](Java/Java并发/线程安全.md)
         * [锁优化](Java/Java并发/锁优化.md)
         * [多线程开发良好的实践](Java/Java并发/多线程开发良好的实践.md)
+        * [并发面经](Java/Java并发/面经.md)
     * 1.4、Java虚拟机
-          * [运行时数据区域](Java/Java虚拟机/运行时数据区域.md)
-          * [垃圾收集](Java/Java虚拟机/垃圾收集.md)
-          * [内存分配与回收策略](Java/Java虚拟机/内存分配与回收策略.md)
-          * [类加载机制](Java/Java虚拟机/类加载机制.md)
+        * [运行时数据区域](Java/Java虚拟机/运行时数据区域.md)
+        * [垃圾收集](Java/Java虚拟机/垃圾收集.md)
+        * [内存分配与回收策略](Java/Java虚拟机/内存分配与回收策略.md)
+        * [类加载机制](Java/Java虚拟机/类加载机制.md).
+        * [面经](Java/Java虚拟机/面经.md)
     * 1.5、Java IO
       * [01.概览](Java/JavaIO/概览.md)
       * [02.磁盘操作](Java/JavaIO/磁盘操作.md)
@@ -54,9 +57,10 @@
       * [Arrays类使用详情](Java/没遇到过的java类与方法/Arrays类.md)
       * [Collections类使用详情](Java/没遇到过的java类与方法/Collections类.md)
       * [Pattern类使用详情](Java/没遇到过的java类与方法/Pattern类.md)
-      * [DataSourceTransactionManager类解读](Java/没遇到过的java类与方法/DataSourceTransactionManager类解读.md)
+      * [DataSoumrceTransactionManager类解读](Java/没遇到过的java类与方法/DataSourceTransactionManager类解读.md)
       * [Optional类](Java/没遇到过的java类与方法/Optional类.md)
       * [PriorityQueue优先队列](Java/没遇到过的java类与方法/PriorityQueue优先队列.md)
+      * [Lambda表达式](Java/没遇到过的java类与方法/Lambda表达式.md)
 
 
 
@@ -84,6 +88,9 @@
       * [幂等性扫描对应的库表去补偿发货单消息](项目学习/lottery/扫描对应的库表去补偿发货单消息.md)
       * [redis在项目中的使用](项目学习/lottery/redis在项目中的使用.md)
       * [搭建erp并使用nacos作为注册中心](项目学习/lottery/搭建erp并使用nacos作为注册中心.md)
+    * SpringBoot中间件
+      * [服务治理](项目学习/SpringBoot中间件/服务治理.md)
+      * [ORM框架](项目学习/SpringBoot中间件/ORM.md)
 
 * 三、工具
     * [01.vs插件markdown使用快捷](tools/01.vs插件markdown使用快捷.md)
@@ -91,6 +98,9 @@
     * [03.maven的使用](tools/mavne的使用.md)
     * [04.对象转换工具MapStruct](tools/对象转换工具MapStruct.md)
     * [05.docsify的使用](tools/docsify的使用.md)
+    * [drawio的使用](tools/drawio的使用.md)
+    * [ScreenToGif]
+    * [记录github的使用](tools/记录github的使用.md)
 
 * 四、数据库
     * 4.1、MYSQL
@@ -109,6 +119,20 @@
       * [06.Next-Key Locks](数据库/数据库系统原理/06.Next-KeyLocks.md)
       * [07.关系数据库设计理论](数据库/数据库系统原理/07.关系数据库设计理论.md)
       * [08.ER图](数据库/数据库系统原理/08.ER图.md)
+    * 4.3、Redis
+      * [基本学习](数据库/Redis/基本学习.md)
+      * [数据结构](数据库/Redis/数据结构.md)
+      * [使用场景](数据库/Redis/使用场景.md)
+      * [持久化](数据库/Redis/持久化.md)
+      * [事件](数据库/Redis/事件.md)
+      * [复制](数据库/Redis/复制.md)
+      * [一个简单的论坛系统分析](数据库/Redis/一个简单的论坛系统分析.md)
+      * [发布订阅模式](数据库/Redis/发布订阅模式.md)
+      * [数据类型的使用场景](数据库/Redis/数据类型的使用场景.md)
+      * [底层数据结构](数据库/Redis/底层数据结构.md)
+      * [过期删除策略和内存淘汰策略](数据库/Redis/过期删除策略和内存淘汰策略.md)
+      * [高可用](数据库/Redis/高可用.md)
+  
 
 * 五、算法 
     * 5.1、剑指offer
@@ -118,11 +142,22 @@
         * [回溯](算法/LeetCode精选/回溯.md)
         * [贪心](算法/LeetCode精选/贪心.md)
         * [KMP](算法/LeetCode精选/KMP.md)
+        * [高频考点](算法/LeetCode精选/高频考点.md)
     * 5.3、数据结构
         * [并查集](算法/数据结构/并查集.md)
         * [排序](算法/数据结构/排序.md)
         * [BFS和DFS](算法/数据结构/BFS和DFS.md)
         * [链表](算法/数据结构/链表.md)
+        * [前缀和差分](算法/数据结构/前缀和差分.md)
+        * [单调队列-滑动窗口](算法/数据结构/滑动窗口.md)
+        * [树](算法/数据结构/树.md)
+        * [堆](算法/数据结构/堆.md)
+        * [位运算](算法/数据结构/位运算.md)
+        * [十大排序比较](算法/数据结构/十大排序比较.md)
+        * [LRU缓存](算法/数据结构/LRU缓存.md)
+        * [二分](算法/数据结构/二分.md)
+        * [Tire](算法/数据结构/Tire.md)
+        * [布隆过滤器](算法/数据结构/布隆过滤器.md)
 
 
 * 六、计算机基础
@@ -184,6 +219,8 @@
     * 7.3、结构型
         * [外观](设计模式/结构型/外观.md)
         * [组合](设计模式/结构型/组合.md)
+        * [装饰](设计模式/结构型/装饰.md)
+        * [代理](设计模式/结构型/代理.md)
     * 7.4、设计原则
         * [七大原则](设计模式/设计原则/七大原则.md)
 
@@ -207,6 +244,7 @@
         * [RPC实战与核心原理](RPC框架/RPC基础/RPC实战与核心原理.md)
     * 中间件
         * [kafka在windows中的使用](RPC框架/中间件/kafkawindows中的使用.md)
+        * [nacos使用](RPC框架/中间件/nacos使用.md)
     * 分布式系统
         * [分布式系统理论基础](RPC框架/分布式系统理论基础.md)
         * [分布式理论](RPC框架/分布式理论.md)
@@ -215,6 +253,14 @@
         * [分布式事务](RPC框架/分布式事务.md)
         * [分布式缓存](RPC框架/分布式缓存.md)
         * [缓存](RPC框架/缓存.md)
-
-* 九、先放一下
-    * [12月](总结/12月.md)
+    * spring
+        * [IOC](RPC框架/spring/IOC.md)
+        * [面经](RPC框架/spring/面经.md)
+    * netty
+        * [netty](RPC框架/netty/IO入门.md)
+* 十、记录面试问题和预案
+    * 项目
+        * [lottery项目看你会遇到的问题](记录面试问题和预案/项目/lottery项目看你会遇到的问题.md)
+        * [预设的问题](记录面试问题和预案/预设的问题.md)
+        * [常见的八股文](记录面试问题和预案/常见的八股文.md)
+        * [MySQL问题](记录面试问题和预案/MySQL问题.md)

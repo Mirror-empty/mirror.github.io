@@ -8,6 +8,8 @@
 
 　　@Conﬁguration类允许通过调用同一类中的其他@Bean方法来定义bean之间的依赖关系
 
+没有配置类就没有Bean
+
 表名当前类是一个配置类。
 
 ### @EnableDubbo
@@ -180,6 +182,14 @@ public @interface Signature {
 @ConditionalOnMissingBean，它是修饰bean的一个注解，主要实现的是，当你的bean被注册之后，如果而注册相同类型的bean，就不会成功，它会保证你的bean只有一个，即你的实例只有一个，当你注册多个相同的bean时，会出现异常，以此来告诉开发人员。
 
 
+### @ConditionalOnClass
+
+作用是当项目中存在某个类时才会使标有该注解的类或方法生效；
+
+
+### @EnableConfigurationProperties
+
+@EnableConfigurationProperties 注解的作用是:让使用了 @ConfigurationProperties 注解的类生效,并且将该类注入到 IOC 容器中,交由 IOC 容器进行管理
 
 ### @Aspect
 
